@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+  padding: 2rem 0;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.link:link,
+.link:visited {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--color-secondary);
+  transition: all 0.5s;
+}
+
+.link:hover,
+.link:active {
+  color: #fff;
+}

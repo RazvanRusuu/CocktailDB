@@ -1,0 +1,40 @@
+.form {
+  margin-bottom: 10rem;
+}
+
+.form-controls {
+  max-width: 50rem;
+  width: 30rem;
+  margin: 0 auto;
+  background-color: #eee;
+  height: 4rem;
+  border-radius: 5px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  display: inline-block;
+  border: none;
+  background-color: #eee;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  outline: none;
+}
+.input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+}
