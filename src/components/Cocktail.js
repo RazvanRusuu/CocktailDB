@@ -14,7 +14,7 @@ const Cocktail = (props) => {
         <span className={classes.name}>{name}</span>
         <span className={classes.glass}>{glass}</span>
         <span className={classes.type}>{info}</span>
-        <Link to={`cockteil/${id}`} className={classes.link}>
+        <Link to={`cocktail/${id}`} className={classes.link}>
           Details
         </Link>
       </div>

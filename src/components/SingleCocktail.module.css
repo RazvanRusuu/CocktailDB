@@ -1,0 +1,44 @@
+.section__cocktail {
+  padding: 5rem 5%;
+}
+
+.paragraph {
+  font-size: 5rem;
+}
+
+.figure {
+  border-radius: 1rem;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.cocktail-image {
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.cocktail-content {
+  align-self: center;
+}
+.data {
+  line-height: 1.5;
+}
+.data:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.data span:first-child {
+  background-image: linear-gradient(
+    to top left,
+    var(--color-secondary),
+    var(--color-secondary-dark)
+  );
+  padding: 0.2rem 1rem;
+  border-radius: 3px;
+  margin-right: 1rem;
+}
+.ingredient {
+  text-transform: capitalize;
+}

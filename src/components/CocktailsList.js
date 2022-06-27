@@ -15,7 +15,7 @@ const CocktailsList = () => {
         const { id, name, image, info, glass } = cocktail;
         return (
           <Cocktail
-            key={id}
+            key={index}
             id={id}
             name={name}
             info={info}

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section>
       <div className="container">
-        <h1 className={`${classes["heading-primary"]}`}>About us</h1>
+        <h1 className='heading-primary'>About us</h1>
         <div className={classes.content}>
           <p className={classes.paragraph}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis

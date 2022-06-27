@@ -6,6 +6,7 @@ import SingleCocktail from "./components/SingleCocktail";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
 import "./index.css";
+import "./utilis.css";
 
 function App() {
   return (

@@ -1,11 +1,3 @@
-.heading-primary {
-  font-size: 6rem;
-  color: var(--color-secondary);
-  display: block;
-  width: 30rem;
-  margin: 10rem auto;
-  border-bottom: 2px solid var(--color-secondary);
-}
 
 .content {
   max-width: 80rem;
